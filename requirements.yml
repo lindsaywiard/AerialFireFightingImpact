@@ -1,0 +1,16 @@
+name: aerialFire
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - contextily
+  - geopandas
+  - ipython
+  - jupyterlab
+  - matplotlib
+  - matplotlib-scalebar
+  - numpy
+  - pandas
+  - scikit-learn=1.5.2
+
