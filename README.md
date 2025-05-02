@@ -4,12 +4,11 @@ This repository contains the data, analysis code, and visualizations associated 
 ## Repository Structure
  - data/ - Folder containing all necessary datasets (drop data, fire perimeters, ros data)
  - images/ - Folder containing output plots and figures used in the paper
- - plotPerimeters.ipynb - Generates visualizations of fire perimeters
- - histogramPlots.ipynb - Creates histograms and distribution comparisons of model features
- - fullRF.ipynb - Trains and evaluates the full model using real and synthetic drops
- - synthRF.ipynb - Trains and applies the synthetic-only model for counterfactual analysis
- - requirements.yml - Conda environment file with all necessary dependencies
- - README.md - Project overview and setup instructions
+ - [fullRF.ipynb](fullRF.ipynb) - Trains and evaluates the full model using real and synthetic drops
+ - [histogramPlots.ipynb](histogramPlots.ipynb) - Creates histograms and distribution comparisons of model features
+ - [plotPerimeters.ipynb](plotPerimeters.ipynb) - Generates visualizations of fire perimeters
+ - [requirements.yml](requirements.yml) - Conda environment file with all necessary dependencies
+ - [synthRF.ipynb](requirements.yml) - Trains and applies the synthetic-only model for counterfactual analysis
 
 ## Getting Started
 To reproduce the results or explore the data and visualizations, follow the steps below:
@@ -39,4 +38,4 @@ To reproduce the results or explore the data and visualizations, follow the step
 If you use this code or dataset in your work, please cite the corresponding paper (link to paper).
 
 ## License
-This project is released under the MIT License. See LICENSE for details.
+This project is released under the MIT License. See [LICENSE](LICENSE) for details.
